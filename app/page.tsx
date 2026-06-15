@@ -131,7 +131,13 @@ export default function HomePage() {
             Nicotine rewires the adolescent brain at a cellular level.
             Explore the neural pathways, uncover vulnerabilities, and see what the scientific research reveals.
           </p>
-
+          <Image
+            src="/brainbygraphics.png"
+            alt="Human brain"
+            width={700}
+            height={700}
+            className="mx-auto mb-10"
+/>
           <a
             href="#brain"
             className={[
