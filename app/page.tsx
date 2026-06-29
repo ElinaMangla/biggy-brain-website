@@ -109,15 +109,7 @@ export default function HomePage() {
             <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
             Biomed Research Initiative
           </span>
-
-          {/* ── HOOK HEADLINE ── */}
-          <h1
-            className={[
-              "font-black tracking-tight leading-[1.08] uppercase",
-              "text-[clamp(2.3rem,8vw,5rem)]",
-              "mb-6",
-            ].join(" ")}
-          >
+          
             Do you want to{" "}
             <span className="inline-block text-cyan-400 drop-shadow-[0_0_20px_rgba(34,211,238,0.2)]">
               stop one
